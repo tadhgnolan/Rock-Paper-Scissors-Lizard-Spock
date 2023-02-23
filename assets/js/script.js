@@ -1,6 +1,6 @@
-const userChoice = document.querySelector(#userChoice);
-const opponentChoice = document.querySelector(#opponentChoice);
-const result = document.querySelector(#result);
+const userChoice = document.querySelector("#userChoice");
+const opponentChoice = document.querySelector("#opponentChoice");
+const resultChoice = document.querySelector("#result");
 const choiceBtns = document.querySelectorAll(".choiceBtn");
 let user;
 let opponent;
@@ -8,11 +8,11 @@ let result;
 
 choiceBtns.forEach(button => button.addEventListener("click", () => {
 
-    user = button.choiceContent;
+    user = button.textContent;
     opponentTurn();
-    userChoicechoiceContent = 'User.${user}';
-    opponentChoicechoiceContent = 'opponent.${opponent}';
-    resultchoiceContent = checkWinner();
+    userChoice.textContent = 'User.${user}';
+    opponentChoice.textContent = 'opponent.${opponent}';
+    resultChoice.textContent = checkWinner();
 }));
 
 function opponentTurn() {
@@ -39,7 +39,7 @@ function opponentTurn() {
 }
 
 function checkWinner() {
-    if (user == computer) {
+    if (user == opponent) {
         return "Draw!";
     } else if (opponent == "Rock") {
         return (user == "Paper", "Spock") ? "You Win!" : "You Lose!"
