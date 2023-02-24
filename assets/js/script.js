@@ -1,6 +1,6 @@
-const userChoice = document.querySelector("#userChoice");
-const opponentChoice = document.querySelector("#opponentChoice");
-const resultChoice = document.querySelector("#result");
+const userChoice = document.getElementById("userChoice");
+const opponentChoice = document.getElementById("opponentChoice");
+const resultChoice = document.getElementById("resultChoice");
 const choiceBtns = document.querySelectorAll(".choiceBtn");
 let user;
 let opponent;
@@ -8,11 +8,11 @@ let result;
 
 choiceBtns.forEach(button => button.addEventListener("click", () => {
 
-    user = button.textContent;
+    user = button.innerText;
     opponentTurn();
-    userChoice.textContent = `User: ${user}`;
-    opponentChoice.textContent = `Opponent: ${opponent}`;
-    resultChoice.textContent = checkWinner();
+    userChoice.innerText = `User: ${user}`;
+    opponentChoice.innerText = `Opponent: ${opponent}`;
+    resultChoice.innerText = checkWinner();
 }));
 
 function opponentTurn() {
