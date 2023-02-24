@@ -10,8 +10,8 @@ choiceBtns.forEach(button => button.addEventListener("click", () => {
 
     user = button.textContent;
     opponentTurn();
-    userChoice.textContent = 'User: .${user}';
-    opponentChoice.textContent = 'Opponent: .${opponent}';
+    userChoice.textContent = 'User: ${user}';
+    opponentChoice.textContent = 'Opponent: ${opponent}';
     resultChoice.textContent = checkWinner();
 }));
 
