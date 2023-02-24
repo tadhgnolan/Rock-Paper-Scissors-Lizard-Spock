@@ -1,10 +1,14 @@
 const userChoice = document.getElementById("userChoice");
+const userWins = document.getElementById("userWins");
 const opponentChoice = document.getElementById("opponentChoice");
+const opponentWins = document.getElementById("opponentWins");
 const resultChoice = document.getElementById("resultChoice");
 const choiceBtns = document.querySelectorAll(".choiceBtn");
 let user;
 let opponent;
 let result;
+let userWinCount = 0;
+let opponentWinCount = 0;
 
 choiceBtns.forEach(button => button.addEventListener("click", () => {
 
@@ -12,7 +16,15 @@ choiceBtns.forEach(button => button.addEventListener("click", () => {
     opponentTurn();
     userChoice.innerText = `User: ${user}`;
     opponentChoice.innerText = `Opponent: ${opponent}`;
-    resultChoice.innerText = checkWinner();
+    let resultText = checkWinner();
+    resultChoice.innerText = resultText;
+    if (resultText == "You Win!") {
+        userWinCount++;
+        userWins.innerText = userWinCount;
+    } else if (resultText == "You Lose!") {
+        opponentWinCount++;
+        opponentWins.innerText = opponentWinCount;
+    }
 }));
 
 function opponentTurn() {
@@ -30,6 +42,10 @@ function opponentTurn() {
             opponent = "Scissors";
             break;
         case 4:
+
+
+
+
             opponent = "Lizard";
             break;
         case 5:
@@ -42,14 +58,14 @@ function checkWinner() {
     if (user == opponent) {
         return "Draw!";
     } else if (opponent == "Rock") {
-        return (user == "Paper", "Spock") ? "You Win!" : "You Lose!"
-    } else if (opponent = "Paper") {
-        return (user == "Scissors", "Paper") ? "You Win!" : "You Lose!"
-    } else if (opponent = "Scissors") {
-        return (user == "Rock", "Spock") ? "You Win!" : "You Lose!"
-    } else if (opponent = "Lizard") {
-        return (user == "Rock", "Scissors") ? "You Win!" : "You Lose!"
-    } else if (opponent = "Spock") {
-        return (user == "Paper", "Lizard") ? "You Win!" : "You Lose!"
+        return (user == "Paper" || user == "Spock") ? "You Win!" : "You Lose!";
+    } else if (opponent == "Paper") {
+        return (user == "Scissors" || user == "Lizard") ? "You Win!" : "You Lose!";
+    } else if (opponent == "Scissors") {
+        return (user == "Rock" || user == "Spock") ? "You Win!" : "You Lose!";
+    } else if (opponent == "Lizard") {
+        return (user == "Rock" || user == "Scissors") ? "You Win!" : "You Lose!";
+    } else if (opponent == "Spock") {
+        return (user == "Paper" || user == "Lizard") ? "You Win!" : "You Lose!";
     }
 }
