@@ -1,4 +1,4 @@
-# ENCYCLOPEDIA EXERCITIUM
+# Rock, Paper, Scissors, Lizard, Spock
 
 
 ![screenshot](documentation/images/mockup.png)
