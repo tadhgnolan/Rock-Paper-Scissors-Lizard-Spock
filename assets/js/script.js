@@ -1,3 +1,4 @@
+/* jshint esversion: 11 */
 const userChoice = document.getElementById("userChoice");
 const userWins = document.getElementById("userWins");
 const opponentChoice = document.getElementById("opponentChoice");
@@ -6,7 +7,6 @@ const resultChoice = document.getElementById("resultChoice");
 const choiceBtns = document.querySelectorAll(".choiceBtn");
 let user;
 let opponent;
-let result;
 let userWinCount = 0;
 let opponentWinCount = 0;
 
