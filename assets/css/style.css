@@ -1,0 +1,12 @@
+body {
+    background: #5F00EA;
+    background: -moz-linear-gradient(left, #5F00EA 0%, #EC407A 50%, #FDD835 100%);
+    background: -webkit-linear-gradient(left, #5F00EA 0%, #EC407A 50%, #FDD835 100%);
+    background: linear-gradient(to right, #5F00EA 0%, #EC407A 50%, #FDD835 100%);
+    display: grid;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    place-items: center;
+    color: white;
+}
