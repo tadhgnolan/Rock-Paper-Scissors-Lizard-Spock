@@ -42,10 +42,6 @@ function opponentTurn() {
             opponent = "Scissors";
             break;
         case 4:
-
-
-
-
             opponent = "Lizard";
             break;
         case 5:
