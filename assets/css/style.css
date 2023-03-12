@@ -31,3 +31,123 @@ body {
 #reset-button:hover {
     background-color: #EC407A;
 }
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#btn1 {
+    font-size: 3vmin;
+    background-color: #00A2F6;
+    color: #CCCCCC;
+    border-top: 1px solid #FDD835;
+    border-right: 1px solid #5F00EA;
+    border-bottom: 1px solid #5F00EA;
+    border-left: 1px solid #FDD835;
+    border-radius: 12px;
+}
+
+#btn1:hover {
+    background-color: #DE0CEB;
+    color: white;
+}
+
+#btn2 {
+    font-size: 3vmin;
+    background-color: #0054D4;
+    color: #CCCCCC;
+    border-top: 1px solid #FDD835;
+    border-right: 1px solid #5F00EA;
+    border-bottom: 1px solid #5F00EA;
+    border-left: 1px solid #FDD835;
+    border-radius: 12px;
+}
+
+#btn2:hover {
+    background-color: #DE0CEB;
+    color: white;
+}
+
+#btn3 {
+    font-size: 3vmin;
+    background-color: #0C2BEB;
+    color: #CCCCCC;
+    border-top: 1px solid #FDD835;
+    border-right: 1px solid #5F00EA;
+    border-bottom: 1px solid #5F00EA;
+    border-left: 1px solid #FDD835;
+    border-radius: 12px;
+}
+
+#btn3:hover {
+    background-color: #DE0CEB;
+    color: white;
+}
+
+#btn4 {
+    font-size: 3vmin;
+    background-color: #1C00D4;
+    color: #CCCCCC;
+    border-top: 1px solid #FDD835;
+    border-right: 1px solid #5F00EA;
+    border-bottom: 1px solid #5F00EA;
+    border-left: 1px solid #FDD835;
+    border-radius: 12px;
+}
+
+#btn4:hover {
+    background-color: #DE0CEB;
+    color: white;
+}
+
+#btn5 {
+    font-size: 3vmin;
+    background-color: #6400F6;
+    color: #CCCCCC;
+    border-top: 1px solid #FDD835;
+    border-right: 1px solid #5F00EA;
+    border-bottom: 1px solid #5F00EA;
+    border-left: 1px solid #FDD835;
+    border-radius: 12px;
+}
+
+#btn5:hover {
+    background-color: #DE0CEB;
+    color: white;
+}
+
+#RPS {
+    padding: 25px;
+    font-size: 3vmin;
+}
+
+@media only screen and (min-width: 384px) and (max-height: 800) {
+    #btn1 {
+        font-size: 1em;
+    }
+
+    #btn2 {
+        font-size: 5vmin;
+    }
+
+    #btn3 {
+        font-size: 5vmin;
+    }
+
+    #btn4 {
+        font-size: 5vmin;
+    }
+
+    #btn5 {
+        font-size: 5vmin;
+    }
+}
