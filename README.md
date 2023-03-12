@@ -21,9 +21,9 @@ I used Adobe Color Wheel to check for color blind conflicts and c correct use of
 -  Linear gradient of `#5F00EA 0%, #EC407A 50%, #FDD835 100%` used for background
 
 - `#CCCCCC` used for primary text.
-- `#E84610` used for primary highlights.
-- `#4A4A4F` used for secondary text.
-- `#009FE3` used for secondary highlights.
+- `#5F00EA` used for primary highlights.
+- `#1F1F1E` used for secondary text.
+- `#DE0CEB` used for secondary highlights.
 
 I used [coolors.co](https://coolors.co/5f00ea-ec407a-fdd835) to save my colour palette.
 
@@ -41,36 +41,6 @@ I used [coolors.co](https://coolors.co/5f00ea-ec407a-fdd835) to save my colour p
 - As a new player, I would like to be able to see my score and that of the computer opponent.
 - As a new player, I would like to be able to reset my game and start again.
 
-## Wireframes
-
-To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
-I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
-
-### Home Page Wireframes
-
-| Size | Screenshot |
-| --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-home.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-home.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-home.png) |
-
-### About Page Wireframes
-
-| Size | Screenshot |
-| --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-about.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-about.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-about.png) |
-
-### Contact Page Wireframes
-
-| Size | Screenshot |
-| --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-contact.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-contact.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-contact.png) |
-
-
 ## Features
 
 ### Existing Features
@@ -87,7 +57,7 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 ![screenshot](https://github.com/tadhgnolan/Rock-Paper-Scissors-Lizard-Spock/blob/main/documentation/images/hover-animation.gif)
 
-- **Game Page
+- **Game Page**
 
     - A page for the main game with a button for each choice the player can take and a reset button that will take them back to the welcome/home page.
 
@@ -107,18 +77,26 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 # Testing
 
 ## Code Validation
-- https://validator.w3.org/nu/
+- [W3C HTML & CSS Validators](https://validator.w3.org/)
 
+- HTML checks passed
+ ![screenshot](https://github.com/tadhgnolan/Rock-Paper-Scissors-Lizard-Spock/blob/main/documentation/images/htmlcheck-index.png)
+ ![screenshot](https://github.com/tadhgnolan/Rock-Paper-Scissors-Lizard-Spock/blob/main/documentation/images/htmlcheck-game.png)
+
+- CSS check failed first time. Corrected, then passed.
+![screenshot](https://github.com/tadhgnolan/Rock-Paper-Scissors-Lizard-Spock/blob/main/documentation/images/csscheck-fail-card.png)
+![screenshot](https://github.com/tadhgnolan/Rock-Paper-Scissors-Lizard-Spock/blob/main/documentation/images/csscheck-card.png)
+
+- [JSHint](https://jshint.com/)
+![screenshot](https://github.com/tadhgnolan/Rock-Paper-Scissors-Lizard-Spock/blob/main/documentation/images/jshint-card.png)
+![screenshot](https://github.com/tadhgnolan/Rock-Paper-Scissors-Lizard-Spock/blob/main/documentation/images/jshint-script.png)
 ## Responsiveness
 - Website performed normally on mobile, desktop and tablet:
-![Pixel3aXL]()
-![Lenovo Duet in Tablet mode]()
-![Desktop PC 1440p]()
+![Pixel4a](https://github.com/tadhgnolan/Rock-Paper-Scissors-Lizard-Spock/blob/main/documentation/images/pixel4a.png)
+![Desktop PC 1440p](https://github.com/tadhgnolan/Rock-Paper-Scissors-Lizard-Spock/blob/main/documentation/images/Desktop%201440p.png)
 
-- Lighthouse
- ![screenshot]()
- ![screenshot]()
- ![screenshot](d)
+- Lighthouse Passed
+ ![screenshot](https://github.com/tadhgnolan/Rock-Paper-Scissors-Lizard-Spock/blob/main/documentation/images/lighthouse-score.png)
 
 ## Deployment
 
