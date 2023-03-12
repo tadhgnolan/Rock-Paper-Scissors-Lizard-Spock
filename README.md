@@ -35,12 +35,6 @@ I used [coolors.co](https://coolors.co/5f00ea-ec407a-fdd835) to save my colour p
 
 ## User Stories
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, list all of your user stories for the project.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 ### Player of the Game
 - As a new player, I would like to learn the rules of the game so I understand how to play.
 - As a new player, I would like to be able to access the game quickly .
@@ -48,14 +42,6 @@ In this section, list all of your user stories for the project.
 - As a new player, I would like to be able to reset my game and start again.
 
 ## Wireframes
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, display your wireframe screenshots using a Markdown `table`.
-
-Instructions on how to do Markdown `tables` start on line #213 on this site: https://pandao.github.io/editor.md/en.html
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
 I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
