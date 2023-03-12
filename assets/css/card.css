@@ -73,7 +73,7 @@ h4 {
     background-image: radial-gradient(rgba(255, 255, 255, 0.2) 8%,
             transparent 8%);
     background-position: 0% 0%;
-    background-size: 5vmin 5vmins;
+    background-size: 5vmin;
     padding: 5vmin;
     position: relative;
     transition: background-position 350ms ease;

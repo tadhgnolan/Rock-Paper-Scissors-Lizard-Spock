@@ -169,8 +169,8 @@ You can fork this repository by using the following steps:
 
 | Source | Location | Notes |
 | --- | --- | --- |
-| 
-| [Gradient Hover Card Effect by Hyperplexed](https://codepen.io/Hyperplexed/pen/QWQRGdO) | Welcome Page | Used to generate the hover animation on the Welcome Page |
+| [Remove HTML line breaks for mobile devices with @media query by Marko Dugonjić](https://www.maratz.com/blog/archives/2011/02/21/remove-html-line-breaks-for-mobile-devices-with-media-query/) | Game Page | code used to remove line breaks for mobile media query |
+| [Gradient Hover Card Effect by Hyperplexed](https://codepen.io/Hyperplexed/pen/QWQRGdO) | Welcome Page | code used to generate the hover animation on the Welcome Page |
 | [REM to PX Converter](https://pixelsconverter.com/rem-to-px) | entire site | used to convert pixel values to REM values |
 | [Shreya Bose](https://www.browserstack.com/guide/ideal-screen-sizes-for-responsive-design) | media queries | referenced when trying to decide best values for responsive design |
 | [Am I Responsive](https://ui.dev/amiresponsive?) | documentation | used to generate a mockup of website on multiple devices for documentation |
