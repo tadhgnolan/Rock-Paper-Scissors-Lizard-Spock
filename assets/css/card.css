@@ -15,12 +15,20 @@ body {
     place-items: center;
 }
 
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
 .card {
     aspect-ratio: 1 / 1.6;
     border: 0.5vmin solid var(--border);
     cursor: pointer;
     position: relative;
-    width: 56vmin;
+    width: 90vmin;
 }
 
 .card:hover::before {
@@ -130,57 +138,4 @@ body {
     position: absolute;
     transition: color 250ms ease;
     z-index: 2;
-}
-
-/* -- YouTube Link Styles -- */
-
-#source-link {
-    top: 60px;
-}
-
-#source-link>i {
-    color: rgb(94, 106, 210);
-}
-
-#yt-link {
-    top: 10px;
-}
-
-#yt-link>i {
-    color: rgb(239, 83, 80);
-}
-
-.meta-link {
-    align-items: center;
-    backdrop-filter: blur(3px);
-    background-color: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 6px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    display: inline-flex;
-    gap: 5px;
-    left: 10px;
-    padding: 10px 20px;
-    position: fixed;
-    text-decoration: none;
-    transition: background-color 350ms, border-color 350ms;
-    z-index: 10000;
-}
-
-.meta-link:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.meta-link>i,
-.meta-link>span {
-    height: 20px;
-    line-height: 20px;
-}
-
-.meta-link>span {
-    color: white;
-    font-family: "Anek Latin", sans-serif;
-    transition: color 600ms;
 }
