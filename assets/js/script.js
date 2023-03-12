@@ -18,10 +18,10 @@ choiceBtns.forEach(button => button.addEventListener("click", () => {
     opponentChoice.innerText = `Opponent: ${opponent}`;
     let resultText = checkWinner();
     resultChoice.innerText = resultText;
-    if (resultText == "You Win!") {
+    if (resultText == "You Win!🎉") {
         userWinCount++;
         userWins.innerText = userWinCount;
-    } else if (resultText == "You Lose!") {
+    } else if (resultText == "You Lose!🎻") {
         opponentWinCount++;
         opponentWins.innerText = opponentWinCount;
     }
@@ -33,19 +33,19 @@ function opponentTurn() {
 
     switch (numGen) {
         case 1:
-            opponent = "Rock";
+            opponent = "🤘Rock";
             break;
         case 2:
-            opponent = "Paper";
+            opponent = "✋Paper";
             break;
         case 3:
-            opponent = "Scissors";
+            opponent = "✌Scissors";
             break;
         case 4:
-            opponent = "Lizard";
+            opponent = "🤏Lizard";
             break;
         case 5:
-            opponent = "Spock";
+            opponent = "🖖Spock";
             break;
     }
 }
@@ -53,15 +53,15 @@ function opponentTurn() {
 function checkWinner() {
     if (user == opponent) {
         return "Draw!";
-    } else if (opponent == "Rock") {
-        return (user == "Paper" || user == "Spock") ? "You Win!" : "You Lose!";
-    } else if (opponent == "Paper") {
-        return (user == "Scissors" || user == "Lizard") ? "You Win!" : "You Lose!";
-    } else if (opponent == "Scissors") {
-        return (user == "Rock" || user == "Spock") ? "You Win!" : "You Lose!";
-    } else if (opponent == "Lizard") {
-        return (user == "Rock" || user == "Scissors") ? "You Win!" : "You Lose!";
-    } else if (opponent == "Spock") {
-        return (user == "Paper" || user == "Lizard") ? "You Win!" : "You Lose!";
+    } else if (opponent == "🤘Rock") {
+        return (user == "✋Paper" || user == "🖖Spock") ? "You Win!🎉" : "You Lose!🎻";
+    } else if (opponent == "✋Paper") {
+        return (user == "✌Scissors" || user == "🤏Lizard") ? "You Win!🎉" : "You Lose!🎻";
+    } else if (opponent == "✌Scissors") {
+        return (user == "🤘Rock" || user == "🖖Spock") ? "You Win!🎉" : "You Lose!🎻";
+    } else if (opponent == "🤏Lizard") {
+        return (user == "🤘Rock" || user == "✌Scissors") ? "You Win!🎉" : "You Lose!🎻";
+    } else if (opponent == "🖖Spock") {
+        return (user == "✋Paper" || user == "🤏Lizard") ? "You Win!🎉" : "You Lose!🎻";
     }
 }
