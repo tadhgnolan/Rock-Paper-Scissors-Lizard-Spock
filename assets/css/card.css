@@ -92,6 +92,19 @@ body {
 
 .card-button {
     font-size: 5vmin;
+    text-decoration: none;
+    background-color: #0075ba;
+    color: #CCCCCC;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #FDD835;
+    border-right: 1px solid #5F00EA;
+    border-bottom: 1px solid #5F00EA;
+    border-left: 1px solid #FDD835;
+    border-radius: 12px;
+}
+
+.card-button:hover {
+    background-color: #EC407A;
 }
 
 .card-subtitle {

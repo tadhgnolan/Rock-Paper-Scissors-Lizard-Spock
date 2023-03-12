@@ -13,49 +13,21 @@ body {
 
 #reset-button {
     font-size: 5vmin;
+    text-decoration: none;
+    background-color: #0075ba;
+    color: #CCCCCC;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #FDD835;
+    border-right: 1px solid #5F00EA;
+    border-bottom: 1px solid #5F00EA;
+    border-left: 1px solid #FDD835;
+    border-radius: 12px;
 }
 
-/* button,
-button::after {
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+#reset-button a:visited {
+    color: #CCCCCC;
 }
 
-button {
-    background: none;
-    border: 4px solid #fff;
-    border-radius: 10px;
-    color: #ffffff;
-    display: block;
-    font-size: 0.8em;
-    font-weight: bold;
-    margin: 10px auto;
-    padding: 1em 3em;
-    position: relative;
-    text-transform: uppercase;
+#reset-button:hover {
+    background-color: #EC407A;
 }
-
-button::before,
-button::after {
-    background: #fff;
-    content: "";
-    position: absolute;
-    z-index: -1;
-}
-
-button:hover {
-    color: #36454F;
-}
-
-.choiceBtn::after {
-    height: 100%;
-    left: 0;
-    top: 0;
-    width: 0;
-}
-
-.choiceBtn:hover:after {
-    width: 100%;
-} */
