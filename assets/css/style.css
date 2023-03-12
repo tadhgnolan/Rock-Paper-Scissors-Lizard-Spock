@@ -11,6 +11,19 @@ body {
     color: white;
 }
 
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
 #reset-button {
     font-size: 5vmin;
     text-decoration: none;
@@ -32,18 +45,6 @@ body {
     background-color: #EC407A;
 }
 
-.button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
 
 #btn1 {
     font-size: 8vmin;
