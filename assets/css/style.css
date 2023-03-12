@@ -46,7 +46,7 @@ body {
 }
 
 #btn1 {
-    font-size: 3vmin;
+    font-size: 8vmin;
     background-color: #00A2F6;
     color: #CCCCCC;
     border-top: 1px solid #FDD835;
@@ -62,7 +62,7 @@ body {
 }
 
 #btn2 {
-    font-size: 3vmin;
+    font-size: 8vmin;
     background-color: #0054D4;
     color: #CCCCCC;
     border-top: 1px solid #FDD835;
@@ -78,7 +78,7 @@ body {
 }
 
 #btn3 {
-    font-size: 3vmin;
+    font-size: 8vmin;
     background-color: #0C2BEB;
     color: #CCCCCC;
     border-top: 1px solid #FDD835;
@@ -94,7 +94,7 @@ body {
 }
 
 #btn4 {
-    font-size: 3vmin;
+    font-size: 8vmin;
     background-color: #1C00D4;
     color: #CCCCCC;
     border-top: 1px solid #FDD835;
@@ -110,7 +110,7 @@ body {
 }
 
 #btn5 {
-    font-size: 3vmin;
+    font-size: 8vmin;
     background-color: #6400F6;
     color: #CCCCCC;
     border-top: 1px solid #FDD835;
@@ -130,24 +130,12 @@ body {
     font-size: 3vmin;
 }
 
-@media only screen and (min-width: 384px) and (max-height: 800) {
-    #btn1 {
-        font-size: 1em;
+@media only screen and (min-width: 374px) and (max-height: 900px) {
+    #RPS {
+        font-size: 7vmin;
     }
 
-    #btn2 {
-        font-size: 5vmin;
-    }
-
-    #btn3 {
-        font-size: 5vmin;
-    }
-
-    #btn4 {
-        font-size: 5vmin;
-    }
-
-    #btn5 {
-        font-size: 5vmin;
+    #RPS br {
+        content: ' ';
     }
 }
